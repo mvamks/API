@@ -1,0 +1,14 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "description": "Серверные API-данные для фронтенд-проектов (FOOD_JS, ....)",
+  "main": "index.js",
+  "scripts": {
+    "start:food": "json-server food/db.json --port 3001"
+  },
+  "author": "Val",
+  "license": "MIT",
+  "devDependencies": {
+    "json-server": "^1.0.0"
+  }
+}
