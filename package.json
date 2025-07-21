@@ -9,6 +9,6 @@
   "author": "Val",
   "license": "MIT",
   "devDependencies": {
-    "json-server": "^1.0.0"
+    "json-server": "^0.17.3"
   }
 }
