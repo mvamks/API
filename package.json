@@ -4,7 +4,7 @@
   "description": "Серверные API-данные для фронтенд-проектов (FOOD_JS, ....)",
   "main": "index.js",
   "scripts": {
-    "start:food": "json-server food/db.json --port 3001"
+    "start:food": "json-server food/db.json --port ${PORT:-3001}"
   },
   "author": "Val",
   "license": "MIT",
